@@ -89,6 +89,15 @@ function Projects() {
               ghLink="https://github.com/deepti-50/Youtube-Transcript-Summarizer"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="Redis Pub/Sub"
+              description="An experimental project exploring Redis Publish/Subscribe messaging patterns. Built to understand real-time message broadcasting between publishers and subscribers using Redis as a message broker."
+              ghLink="https://github.com/deepti-50/redis-pubsub"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
