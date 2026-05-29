@@ -30,7 +30,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={worksmart}
               isBlog={false}
               title="TrustED: AI-Based Accreditation System"
               description="Building a desktop app using Python and Tkinter to help colleges evaluate NBA Self-Assessment Reports. Automates data validation and report generation, aiming to cut manual work by 50–60%. Migrating from Tkinter to CrewAI-based multi-agent architecture for significantly improved automation and scalability."
