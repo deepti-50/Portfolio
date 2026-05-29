@@ -11,9 +11,9 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Deepti Singh </span>
             from <span className="purple"> Mumbai, India.</span>
             <br />
-            I am currently a student at Thakur College of Engineering and Technology.
+            I graduated from Thakur College of Engineering and Technology.
             <br />
-            I am pursuing B.Tech in Artificial Intelligence and Data Science.
+            I completed my B.Tech in Artificial Intelligence and Data Science.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

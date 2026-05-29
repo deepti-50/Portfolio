@@ -22,6 +22,24 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              isBlog={false}
+              title="Palm Line Detection System"
+              description="Built an object detection model using YOLOv8 trained on a 7,100 image dataset over 75 epochs to detect and classify 4 palm line features (heart, head, life and fate lines) achieving 82% accuracy. Deployed the trained model on AWS Lambda using Docker as a serverless inference endpoint enabling real-time palm line detection in production."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={worksmart}
+              isBlog={false}
+              title="TrustED: AI-Based Accreditation System"
+              description="Building a desktop app using Python and Tkinter to help colleges evaluate NBA Self-Assessment Reports. Automates data validation and report generation, aiming to cut manual work by 50–60%. Migrating from Tkinter to CrewAI-based multi-agent architecture for significantly improved automation and scalability."
+              ghLink="https://github.com/deepti-50/TrustED"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={imaginify}
               isBlog={false}
               title="Imaginify"

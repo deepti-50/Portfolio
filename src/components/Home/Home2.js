@@ -19,36 +19,30 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am deeply passionate about Artificial Intelligence and have hands-on experience building
+              end-to-end ML pipelines and intelligent systems.
               <br />
-              <br />I am fluent in classics like
+              <br />I am highly proficient in programming languages like
               <i>
-                <b className="purple"> Python, Javascript and CSS. </b>
+                <b className="purple"> Python, JavaScript, and TypeScript. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My primary fields of interest lie in &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Data Science.
-                </b>
+                <b className="purple">Artificial Intelligence, Machine Learning, and NLP </b> and
+                building robust <b className="purple">Multi-Agent Systems.</b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Whenever possible, I apply my expertise to develop intelligent solutions
+              using <b className="purple">Python-based Frameworks</b> like
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <b className="purple"> CrewAI, FastAPI, and Flask</b>
               </i>
-              &nbsp; like
+              &nbsp; as well as deploying scalable models with
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> AWS Lambda and Docker.</b>
               </i>
             </p>
           </Col>

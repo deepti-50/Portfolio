@@ -16,50 +16,39 @@ import {
   SiPandas,
   SiNumpy,
   SiTypescript,
-} from "react-icons/si"; // Removed duplicate import of Streamlit
+  SiFastapi,
+  SiFlask,
+} from "react-icons/si";
+import crewaiLogo from "../../Assets/crewai_logo.png";
 
 function Techstack() {
+  const skills = [
+    { icon: <DiPython />, name: "Python" },
+    { icon: <DiJavascript1 />, name: "JavaScript" },
+    { icon: <SiTypescript/>, name: "TypeScript" },
+    { icon: <DiReact />, name: "React" },
+    { icon: <DiNodejs />, name: "Node.js" },
+    { icon: <SiExpress />, name: "Express.js" },
+    { icon: <SiFastapi />, name: "FastAPI" },
+    { icon: <SiFlask />, name: "Flask" },
+    { icon: <SiNextdotjs />, name: "Next.js" },
+    { icon: <SiStreamlit />, name: "Streamlit" },
+    { icon: <img src={crewaiLogo} alt="CrewAI" style={{ width: "80px", marginBottom: "5px" }} />, name: "CrewAI" },
+    { icon: <DiMongodb />, name: "MongoDB" },
+    { icon: <SiMysql />, name: "MySQL" },
+    { icon: <SiPandas />, name: "Pandas" },
+    { icon: <SiNumpy />, name: "NumPy" },
+    { icon: <DiGit />, name: "Git" },
+  ];
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMysql /> {/* MySQL icon */}
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiStreamlit /> {/* Streamlit icon */}
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPandas /> {/* Pandas icon */}
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNumpy /> {/* Numpy icon */}
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiExpress /> {/* Express icon */}
-      </Col>
+      {skills.map((skill, index) => (
+        <Col xs={4} md={2} className="tech-icons" key={index} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+          {skill.icon}
+          <div style={{ fontSize: "0.25em", marginTop: "10px" }}>{skill.name}</div>
+        </Col>
+      ))}
     </Row>
   );
 }
